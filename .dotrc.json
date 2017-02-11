@@ -4,7 +4,10 @@
         ".tmux/tmux.conf",
         ".tmux/tmux-*.conf",
         ".tmux/tmux.$OS.conf",
-        ".tmux/colors"
+        {
+            "path": ".tmux/*",
+            "type": "directory"
+        }
     ],
     "lines": {
         ".tmux.conf": "source-file ~/.tmux/tmux.conf"
