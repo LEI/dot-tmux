@@ -6,5 +6,5 @@ links:
   - pattern: ".tmux/*"
     type: directory
 lines:
-  file: ".tmux.conf"
-  line: "source-file ~/.tmux/tmux.conf"
+  - file: ".tmux.conf"
+    line: "source-file ~/.tmux/tmux.conf"
