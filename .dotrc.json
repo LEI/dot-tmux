@@ -9,7 +9,10 @@
             "type": "directory"
         }
     ],
-    "lines": {
-        ".tmux.conf": "source-file ~/.tmux/tmux.conf"
-    }
+    "lines": [
+        {
+            "file": ".tmux.conf",
+            "line": "source-file ~/.tmux/tmux.conf"
+        }
+    ]
 }
