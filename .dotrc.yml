@@ -3,7 +3,7 @@ links:
   - ".tmux/tmux.conf"
   - ".tmux/tmux-*.conf"
   - ".tmux/tmux.$OS.conf"
-  - pattern: ".tmux/*"
+  - path: ".tmux/*"
     type: directory
 lines:
   - file: ".tmux.conf"
