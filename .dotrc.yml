@@ -1,10 +1,10 @@
 dir: ".tmux"
 links:
-  - ".tmux/tmux.conf"
-  - ".tmux/tmux-*.conf"
-  - ".tmux/tmux.$OS.conf"
-  - path: ".tmux/*"
+  - "tmux.conf:.tmux"
+  - "tmux-*.conf:.tmux"
+  - "tmux.$OS.conf:.tmux"
+  - path: "*:.tmux"
     type: directory
 lines:
-  - file: ".tmux.conf"
+  - path: ".tmux.conf"
     line: "source-file ~/.tmux/tmux.conf"
