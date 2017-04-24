@@ -28,7 +28,7 @@ Create the directory `~/.tmux`
 
 Link files to home directory
 
-    ln -isv "$DOT/.tmux/*" "$HOME/.tmux"
+    ln -isv $DOT/.tmux/* "$HOME/.tmux"
 
 Source `~/.tmux/tmux.conf` from `~/.tmux.conf`
 
