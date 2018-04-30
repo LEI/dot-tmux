@@ -20,7 +20,7 @@
 
 Clone and change directory
 
-    git clone https://github.com/LEI/dot-tmux.git dot-tmux && cd $_
+    git clone https://github.com/LEI/dot-tmux.git ~/.dot/tmux && cd $_
 
 Create the directory `~/.tmux`
 
@@ -28,7 +28,7 @@ Create the directory `~/.tmux`
 
 Link files to home directory
 
-    ln -isv $DOT/.tmux/* "$HOME/.tmux"
+    ln -isv ~/.dot/tmux/* "$HOME/.tmux"
 
 Source `~/.tmux/tmux.conf` from `~/.tmux.conf`
 
