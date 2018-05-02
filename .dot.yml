@@ -1,6 +1,9 @@
 ---
-
 role:
+  pkg:
+    - tmux
+    - name: reattach-to-user-namespace
+      os: ["darwin"]
   link:
     - "tmux.conf:.tmux"
     - "tmux-*.conf:.tmux"
