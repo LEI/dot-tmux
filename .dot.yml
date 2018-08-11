@@ -4,6 +4,7 @@ role:
     - tmux
     - name: reattach-to-user-namespace
       os: ["darwin"]
+  dir: .tmux
   link:
     - "tmux.conf:.tmux"
     - "tmux-*.conf:.tmux"
