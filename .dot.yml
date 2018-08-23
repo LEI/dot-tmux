@@ -1,11 +1,12 @@
 ---
 role:
   pkg:
-    - name: tmux
-      os: ["!windows"]
-    - name: tmux
-      type: apt-cyg
-      os: ["windows"]
+    - tmux
+    # - name: tmux
+    #   os: ["!windows"]
+    # - name: tmux
+    #   type: apt-cyg
+    #   os: ["windows"]
     - name: reattach-to-user-namespace
       os: ["darwin"]
   dir: .tmux
