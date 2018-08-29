@@ -13,7 +13,7 @@ role:
   link:
     - "tmux.conf:.tmux"
     - "tmux-*.conf:.tmux"
-    - "tmux.$OS.conf:.tmux"
+    - "tmux*.$OS.conf:.tmux"
     - "colors:.tmux"
   line:
     ".tmux.conf": "source-file $HOME/.tmux/tmux.conf"
