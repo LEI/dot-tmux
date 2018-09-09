@@ -17,9 +17,9 @@ role:
     - "colors:.tmux"
   line:
     ".tmux.conf": "source-file $HOME/.tmux/tmux.conf"
-  post_install:
+  copy:
     # - go get github.com/LEI/battery
-    - url: "https://github.com/LEI/battery/releases/download/v0.0.1/battery_0.0.1_$(uname)_$(uname -m)"
-      dest: "$HOME/bin/battery"
+    - source: "https://github.com/LEI/battery/releases/download/v0.0.1/battery_0.0.1_$(uname)_$(uname -m)"
+      target: "$HOME/bin/battery"
       mode: 0755
-      # os: ["darwin"]
+      os: ["darwin"]
