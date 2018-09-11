@@ -19,7 +19,7 @@ role:
     ".tmux.conf": "source-file $HOME/.tmux/tmux.conf"
   copy:
     # - go get github.com/LEI/battery
-    - source: "https://github.com/LEI/battery/releases/download/v0.0.1/battery_0.0.1_$(uname)_$(uname -m)"
+    - source: "https://github.com/LEI/battery/releases/download/v0.0.1/battery_0.0.1_$(uname -s)_$(uname -m)"
       target: "$HOME/bin/battery"
       mode: 0755
       os: ["darwin"]
