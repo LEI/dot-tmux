@@ -78,7 +78,7 @@ Enter the tmux command prompt
 
 ### Sessions
 
-Create a new sesion that can be named or detached
+Create a new session that can be named or detached
 
     tmux new [-s <session-name>] [-d]
 
